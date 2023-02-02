@@ -1,0 +1,16 @@
+{
+  "exclude": ["node_modules", "public"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@models": ["db/models"],
+      "@utils/*": ["utils/*"],
+      "@exception": ["utils/http-exception"],
+      "@dao/*": ["app/dao/*"],
+      "@validator/*": ["app/validator/*"],
+      "@routes/*": ["app/routes/*"],
+      "@middleware/*": ["middleware/*"],
+      "@config": ["config/config.js"]
+    }
+  }
+}
